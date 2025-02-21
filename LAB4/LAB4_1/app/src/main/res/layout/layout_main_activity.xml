@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đặt thức ăn và đồ uống"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnChonThucAn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#D3D3D3"
+        android:elevation="4dp"
+        android:background="@drawable/rounded_button"
+        android:text="Chọn Thức Ăn"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/btnChonDoUong"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Chọn Đồ Uống"
+        android:backgroundTint="#D3D3D3"
+        android:elevation="4dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="Thoát"
+        android:backgroundTint="#D3D3D3"
+        android:elevation="4dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chưa chọn món ăn và đồ uống"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
